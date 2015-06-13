@@ -17,3 +17,7 @@ What are some situations when branches would be helpful in keeping your history 
 How do the diagrams help you visualize the branch structure?
 
   They help by seeing what commits are visible in which branches and where the common touch points are among branches. It's much easier to see the changes in a visualization than separate lists.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+  The commits from the non-current branch get merged into the current branch by having a new "merge" commit created on the current branch and brining in that branches commits and interleaving them by creation time in the log of the current branch. It is represented in the diagram that way because the parents of each commit remain the same as they were before. The merge commit has two parents, the latest from the current and branch being merged from.
