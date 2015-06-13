@@ -5,3 +5,7 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
   The staging area differs because it is what git sees as being includable in a commit. The working directory has the files in the filesystem regardless of whether they tracked by git. This is valuable to make many changes and make separate commits for the changes. It is also valuable to creating temporary changes that don't need to be committed, but still enable work that will be committed.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+  I can make multiple changes, but then only add specific files that are part of a logical change to the staging area so that the commit is free of unrelated changes.
