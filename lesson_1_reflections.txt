@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Because it showed the correct old string right above it. It was obvious line
+    over line what the difference was.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    By enabling quick and accurate restoration of old work in case mistakes are
+    made or old ideas need to be retrieved. By being able to see who, what, and
+    when something changed in the file to find and fix bugs faster.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The auto save does changes at a time that is not meaningful to the user, but
+    they are automatic and efficient in case an old version is needed. Manual
+    commits in git have more purpose and can clearly communiucate what the change
+    is for, but it does take time to create the commit and more time to create
+    a thoughtful one.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Version control like git saves multiple files that are part of a complete
+    change. The changes in files could be interdependent. Google docs treats the
+    file separately because it is an independent file at all times.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log shows the history of each commit. Git diff shows the changes between
+    two commits including the numbers of lines added and deleted.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    By always having a backup to restore to or reference in case something breaks.
+    The previous working version is always available.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Software products.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    
