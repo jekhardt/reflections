@@ -26,4 +26,4 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Separate branches are good for collaborating and sending a request to merge a series of commits on the separate branch back into the main branch by project owners. Separate branches are also good for keeping track of separate changes from the main branch, like fixes or features that one might need to context switch between. Separate branches keeps the main branch more stable. Benefits of committing directly to master is that it is less commands to execute.
